@@ -30,7 +30,9 @@ body {
 .logo-link :hover{
     opacity: 0.8;
 }
-
+.logo-link img{
+    display: block;
+}
 
 .logo-link :active{
     opacity: 0.6;
