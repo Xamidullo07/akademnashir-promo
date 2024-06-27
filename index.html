@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:
     ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <!-- STYLES -->
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -24,17 +25,15 @@
         <div class="site-header-actions">
             <nav>
                 <ul class="sitenav-list">
-                    <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
-                    <li><a class="sitenav-link" href="#">Kitoblar</a></li>
-                    <li><a class="sitenav-link" href="#">Aksiyalar</a></li>
-                    <li><a class="sitenav-link" href="#">Kontaktlar</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Bosh sahifa</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Kitoblar</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Aksiyalar</a></li>
+                    <li class="sitenav-item"><a class="sitenav-link" href="#">Kontaktlar</a></li>
                 </ul>
             </nav>
 
             <a class="main-link" href="#">Ro'yhatdan o'tish</a>
     </header>
-    </div>
-
 
     <main>
         <!--HERO-->
@@ -95,6 +94,7 @@
         <section class="promo">
             <div class="promo-content">
                 <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+               <div class="promo-info-wrapper">
                 <p class="promo-text">Ertaklar, she'rlar, sarguzasht asarlar, fikrlashni o'stirish uchun turli
                     mashq qo'llanmalari va komikslar.
                 </p>
@@ -102,6 +102,7 @@
                         kitob</strong> ni <strong class="promo-highlight">350 ming</strong> so'mga
                     (aslida 383 ming so'm) sotib olishingiz mumkin.
                 </p>
+               </div>
                 <a class="main-link" href="#">Buyurtma berish</a>
             </div>
             <img class="promo-img" src="img/sale-img.jpg" alt="Kitoblar to'plami" width="440" height="440"
